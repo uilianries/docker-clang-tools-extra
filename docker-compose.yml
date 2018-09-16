@@ -1,0 +1,5 @@
+version: '3'
+services:
+  clang-tools-extra:
+    build: .
+    image: uilianries/clang-tools-extra:6.0.1
